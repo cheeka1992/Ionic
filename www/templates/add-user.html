@@ -1,0 +1,47 @@
+<ion-view title="New Record">
+
+ <div class="adduser">
+   <a class="ion-close-round" ng-click="previous()"></a>
+  <h4 id="heading_adduser"> Create New Record</h4>
+
+  <div class="item-avatar" id="recordimg">
+     <img ng-src="{{pictureUrl}}" ng-click="takePicture()">
+  </div>
+
+
+ </div>
+
+        <form style="padding-top:100px" id="adduser">
+
+                <label class="item item-input item-stacked-label" id="tablabel">
+                    <span class="input-label">FIRST NAME</span>
+                    <input type="text" placeholder="First Name"  ng-model="rec.recordFirstName">
+                </label>
+                <label class="item item-input item-stacked-label" id="tablabel">
+                    <span class="input-label">LAST NAME</span>
+                    <input type="text" placeholder="Last Name" ng-model="rec.recordLastName">
+                </label>
+          <!--      <label class="item item-input item-stacked-label">
+                    <span class="input-label">Photo</span>
+                    <input type="file" placeholder="upload a photo" ng-model="rec.recordPhoto">
+                </label>
+
+        -->
+
+                <label class="item item-input item-stacked-label" id="tablabel">
+                    <span class="input-label">DATE OF BIRTH</span>
+                    <input type="date"  ng-model="rec.recordDOB">
+                </label>
+
+
+                <label id="gender"> GENDER</label><br/>
+             <input type="radio" name="sex" value="male" id="radio">Male
+                <input type="radio" name="sex" value="female">Female
+
+
+
+            <button class="button button-balanced button-block"
+                    ng-click="addUser()" id="create">Create Record</button>
+        </form>
+    </ion-content>
+</ion-view>

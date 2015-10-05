@@ -1,0 +1,25 @@
+
+
+
+    <div class="login">
+      <div class="loginlogo" id="listimage">
+       <img ng-src="img/login_icon.png" id="imglist">
+      </div>
+    </div>
+
+        <form id="loginform">
+
+                <label class="item-login item-input  item-stacked-label">
+                    <span class="input-label" color="#003366">EMAIL</span>
+                    <input type="text" ng-model="creds.email" style="border-bottom:SOLID #D5D3D3 1px;">
+                </label>
+                <label class="item-login item-input item-stacked-label">
+                    <span class="input-label">PASSWORD</span>
+                    <input type="password" ng-model="creds.password" style="border-bottom:SOLID #D5D3D3 1px;">
+                </label>
+
+            <div class="spacer" style="height: 0px;"></div>
+            <a  ng-click="doLoginAction()"  class="button button-large button-balanced button-block" style="background-color:#4CCEAD; border-color:#4CCEAD;margin: 10% 5% 0 5%;font-weight:bold;">Sign In</a>
+            <p id="loginfooter">DON'T HAVE AN ACCOUNT? <a ui-sref='app-signup'  style = "color:#4CCEAD; text-decoration: none; padding-left:10px">SIGN UP</a>
+            </p>
+        </form>

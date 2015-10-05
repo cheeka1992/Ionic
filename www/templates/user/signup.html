@@ -1,0 +1,56 @@
+<ion-view padding="true">
+
+<a class="ion-close-round" ng-click="start()"></a>
+
+    <div class="signup">
+ </div>
+
+
+    <h4 id="heading_signup"> Sign Up</h4>
+    <a href="templates/user/login.html"><img class="signupphoto" src="img/add_photo.png" id="addphoto"></a>
+
+
+
+
+<!--
+             <i class="icon ion-plus" id="top1"  ng-click="journeyPage()">
+
+         <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+          <img ng-show="imgURI === undefined" ng-src="">
+          </i>
+     <button class="button" ng-click="takePicture()">Take Picture</button>   !-->
+
+
+
+
+        <form style="padding:100px 10px 0 10px" id="signupform">
+
+            <ion-list>
+                <label class="item-login item-input item-stacked-label" id="signform">
+                    <span class="input-label" color="#003366">FIRST NAME</span>
+                    <input type="text" ng-model="creds.first_name" style="border-bottom:SOLID #D5D3D3 1px">
+                </label>
+                <label class="item-login item-input item-stacked-label" id="signform">
+                    <span class="input-label" color="#003366">LAST NAME</span>
+                    <input type="text" ng-model="creds.last_name" style="border-bottom:SOLID #D5D3D3 1px">
+                </label>
+                <label class="item-login item-input item-stacked-label" id="signform">
+                    <span class="input-label" color="#003366">EMAIL</span>
+                    <input type="text" ng-model="creds.email" style="border-bottom:SOLID #D5D3D3 1px">
+                </label>
+                <label class="item-login item-input item-stacked-label" id="signform">
+                    <span class="input-label" color="#003366">PASSWORD</span>
+                    <input type="password"  ng-model="creds.password" style="border-bottom:SOLID #D5D3D3 1px">
+                </label>
+                <label class="item-login item-input item-stacked-label" id="signform">
+                    <span class="input-label" color="#003366">DATE OF BIRTH</span>
+                    <input type="date" placeholder="DD/MM/YYYY" ng-model="creds.dob" style="border-bottom:SOLID #D5D3D3 1px">
+                </label>
+            </ion-list>
+            <a  ng-click="signUpUser()"  class="button button-large button-balanced button-block" style="background-color:#4CCEAD; border-color:#4CCEAD;margin: -10px 5% 0 5%;font-weight:bold;">Sign Up</a>
+
+        </form>
+        <p id="signupfooter">ALREADY HAVE AN ACCOUNT?    <a href="templates/user/login.html"  style = "color:#4CCEAD; text-decoration: none; padding-left:10px">LOGIN</a>
+        </p>
+    </ion-content>
+</ion-view>

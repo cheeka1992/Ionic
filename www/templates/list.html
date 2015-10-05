@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+   <div class="list card" id="tablist">
+
+   <i class="icon ion-navicon" id="main" ng-click="doLogoutAction()"></i>
+   <h2 id="listheading"> YOUR RECORDS</h2>
+
+   <div class="item-avatar" id="listimage">
+    <img ng-src="img/sample.jpg" id="imglist">
+  </div>
+   </div>
+   <div class="dyn">
+
+        <ion-list can-swipe="true" id="tab" >
+          <ion-item class="item" ui-sref='app-adduser'>
+            <h2 style="color:#004C97;padding-top:12px;padding-left:15%">Add a new record</h2>
+            <button class="button button-float">
+                <i class="icon ion-plus"></i>
+              </button>
+          </ion-item>
+          <ion-item class="item item-thumbnail-left" ng-repeat="data in datalist track by $index" type="item-text-wrap"
+                    href="#/list/{{data}}" >
+                  
+                     <div class="item-avatar2" >
+                     <img ng-src="img/add_photo.png">
+                    </div>
+              <ion-option-button class="button-assertive" ng-click="onDelete(data)">
+                  DELETE
+              </ion-option-button>
+
+
+          </ion-item>
+
+
+
+        </ion-list>
+        </div>

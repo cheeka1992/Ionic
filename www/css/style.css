@@ -1,0 +1,398 @@
+form {
+	margin: 0 auto;
+}/* Empty. Add your own CSS if you like */
+
+body {
+	background-color : #484848;
+	margin: 0;
+	padding: 0;
+}
+/*css for material design button on records page*/
+.button-float{
+  background: #4CCEAD !important;
+	border-color: #4CCEAD !important;
+  color:white !important;
+  z-index: 12 !important;
+  position: absolute !important;
+  bottom: 10px !important;
+  right: 10px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+  -webkit-transition: 0.2s linear !important;
+  transition: 0.2s linear !important;
+  -webkit-transition-property: -webkit-transform, all !important;
+  transition-property: transform, all !important;
+
+}
+
+.button-float:hover{
+  -webkit-transform: translate3d(0, -1px, 0)  !important;
+  transform: translate3d(0, -1px, 0) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) !important;
+    background: darken($assertive, 10%) !important;
+}
+
+/*css to override default checkbox behaviour/colouring*/
+.ionic .checkbox input:checked:before,
+.ionic .checkbox input:checked + .checkbox-icon:before {
+  background: #333;
+}
+.ionic .checkbox input:before,
+.ionic .checkbox-icon:before {
+  background: #333;    /* use your color hex instead of #333 */
+  border-color: #333;
+}
+
+.login {
+    margin: 0 0 0 0;
+}
+.item-login {
+    border-color: #004C97;
+		padding: 6px 0 5px 0;
+		margin:0 10px 0 10px;
+}
+#loginform {
+      margin: 50% 20px 0 20px;
+}
+.input {
+	font-family: "ubuntu", verdana, sans-serif;
+}
+
+span.input-label {
+    color: #004C97;
+    font-size: 12PX;
+		font-family: "ubuntu", verdana, sans-serif;
+
+}
+
+.button-login {
+	color:#003366;
+}
+
+
+a.button.button-balanced.button-clear.button-block {
+    margin: 0 0 0 0;
+    font-size: small;
+}
+
+p#loginfooter{
+    margin: 10% 0 0 0;
+    font-size: small;
+		color: #004C97;
+		text-align: center;
+vertical-align: middle;
+}
+
+
+
+/* signup page */
+.signupphoto {
+
+		margin: auto;
+		padding: 0 0 0 0;
+    max-width: 100px;
+    max-height: 100px;
+    width: 50%;
+    height: 50%;
+    border-radius: 0%;
+}
+#addphoto {
+	display: block;
+    margin-top:20px;
+		margin-bottom:0px;
+		margin-left:auto;
+		margin-right: auto;
+}
+
+.signup {
+    margin: 0 0 0 0;
+    height: 0;
+}
+
+h4#heading_signup {
+    font-size: 18px;
+		text-align: center;
+vertical-align: middle;
+			margin: 0 0 0 0;
+}
+
+
+i#top1 {
+    margin: 5px 2px 0px 138px;
+    height: 7em;
+    font-size: 6em;
+}
+
+
+#signupform
+{
+
+      margin: -29% 0 0 0;
+}
+
+p#signupfooter{
+    margin: 20px 0 0 0;
+    font-size: small;
+		color: #004C97;
+		text-align: center;
+vertical-align: middle;
+
+}
+
+
+#signform {
+    margin: 0 20px 0 20px;
+}
+
+a.ion-close-round {
+    color: green;
+    margin: 0px 0px 0px 9px;
+}
+
+.item-avatar {
+  height: 200px;
+}
+
+.loginlogo {
+
+		margin:auto;
+		padding: 50px 0 0 0;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+
+
+
+
+/*home page */
+
+
+
+.homePara {
+    height: 10em;
+    margin: 50px 0 0 0;
+		text-align: center;
+}
+p#home1 {
+    margin: 50px 0px 0px 0px;
+}
+.home {
+    margin: -5% 0 0 0;
+}
+
+
+i.ion-ios-calculator-outline {
+    font-size: 7em;
+    color: #003366;
+    margin: 0px 0 0 0;
+}
+
+
+#home_image{
+	display: block;
+		margin-top:40%;
+		margin-bottom:auto;
+		margin-left:auto;
+		margin-right: auto;
+    max-height: 150px;
+}
+
+
+
+
+i.ion-ios-calculator-outline {
+    border-radius: 100%;
+    border: 2px solid;
+    padding: 30px 36px;
+}
+
+.dots {
+    margin: 1% 0 0 39%;
+}
+
+
+i#second {
+    margin: 0px 9% 0 0;
+}
+
+i#first {
+    margin: 0px 10% 0 0;
+}
+/*tablist */
+
+div#tablist {
+    margin: 0% 0 0 0;
+    height: 50%;
+    background-color: #003366;
+}
+
+h2#listheading {
+    margin: 5% 0 0 15%;
+    color: white;
+}
+
+i.icon.ion-navicon {
+    margin: 0px 0 0 84%;
+    font-size: 4em;
+    color: #4ccead;
+}
+
+
+#imglist {
+	display: block;
+    margin-top:10%;
+		margin-left:auto;
+		margin-right: auto;
+}
+
+
+a.item-content {
+    font-weight: bold;
+    margin: -3px 0px 0px -8%;
+}
+
+ion-item#dynamic {
+    margin: 0px -6% 0 2px;
+}
+
+img#dynimage {
+    margin: -17% 0 0 -21%;
+}
+
+
+.item-avatar2 > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image, .item-avatar-left > img:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:first-child, .item-avatar-left .item-content .item-image {
+    position: absolute;
+    top: 73px;
+    left: 128px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+.list {
+    height: 20em;
+    overflow: scroll;
+}
+
+#main {
+    margin: 1px 0 0 88%;
+    font-size: 3em;
+    color: #4ccead;
+}
+
+
+/* add user */
+
+form#adduser {
+    margin: -45px 0 0 0;
+
+    height: 33em;
+    overflow: scroll;
+
+}
+
+
+
+
+h4#heading_adduser {
+    margin: -5% 0 0 27%;
+}
+
+
+
+button#create {
+    margin: 15% 0 0 0;
+}
+
+
+
+label#gender {
+    margin: 0 0 0 18px;
+    font-size: small;
+    color: #003366;
+    }
+
+
+   #radio{
+    margin: 15px 0 0 16px;
+    line-height: normal;
+    width: 2em;
+    height: 2em;
+        font-size: large;
+}
+
+
+label#tablabel {
+    height: 5em;
+}
+
+
+.adduser {
+    margin: 5% 0 0 0;
+    height: 23%;
+}
+
+
+
+
+
+
+
+
+
+/* list-detail */
+
+div#recordlist {
+    margin: 0% 0 0 0;
+    height: 19%;
+    background-color: #003366;
+}
+
+div#record {
+    height: 29em;
+    overflow: scroll;
+}
+h2#listheading1 {
+    margin: -1% 0 0 6%;
+    color: white;
+}
+
+
+
+h2#listheading2 {
+    margin: -1% 0 0 6%;
+    color: white;
+}
+
+
+i.ion-arrow-left-c {
+   color: #4ccead;
+    font-size: 3em;
+}
+
+
+i.icon.ion-navicon {
+    margin: 1px 0 0 82%;
+    font-size: 3em;
+    color: #4ccead;
+}
+
+
+
+/*menutest */    
+
+div#record {
+   / overflow: scroll;
+    height: 29em;
+}

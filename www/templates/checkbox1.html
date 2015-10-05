@@ -1,0 +1,43 @@
+ <div class="list card" id="recordlist">
+    <i class="ion-arrow-left-c" ng-click="previous()"></i>
+   <i class="icon ion-navicon"></i>
+   <h2 id="listheading2">{{x}}</h2>
+   <h2 id="listheading1">Vaccinations</h2>
+
+   </div>
+        <div id="record">
+
+
+     <!--   <ion-item ng-repeat="data in check" type="checkbox ng-model=data.valu">
+         <pre>{{data | json}}</pre>
+         </ion-item>
+  !-->
+          <ion-item class="item" id="recorditem">
+            <label class="checkbox checkbox-balanced">
+              <input type="checkbox" name="value1" ng-model="test.value1">
+            </label><span>Birth</span>
+          </ion-item>
+          <ion-item class="item">
+            <label class="checkbox checkbox-balanced" id="recorditem">
+              <input type="checkbox" name="value2" ng-model="test.value2">
+            </label><span>2 Months</span>
+          </ion-item>
+          <ion-item class="item" >
+            <label id="recorditem">
+            
+            </label><span>What do expect after vaccination</span>
+          </ion-item>
+
+          <ion-item class="item">
+            <label id="recorditem">
+    
+            </label><span>Frequently asked questions</span>   
+            </ion-item>
+
+                   <button class="button button-stable button-block"
+              ng-click="pre()">Check</button>
+
+     </div>
+
+    </ion-content>
+</ion-view>
